@@ -1,0 +1,106 @@
+h2 {
+    color:rgb(7, 20, 199);
+    font-family:Arial, Helvetica, sans-serif;
+    border-left: 4px solid blue;
+    padding-left: 10px
+}
+h1 {
+    color:rgb(238, 155, 30);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    border: 10px solid brown;
+}
+h3 {
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+p {
+    color:rgb(8, 88, 64);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80px;   
+}
+
+img {
+border-radius: 200px;
+border:20px solid rgb(151, 32, 32);
+
+}
+section{
+    border:2px solid black;
+    margin: 50px;
+    padding: 60px;
+    padding-bottom: 300px;
+    margin-top: 100px;
+    /* realiza comentario em css 
+    
+    */
+}
+nav{
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+nav ul{
+    /* remove as bolinhas do menu
+    */
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+
+}
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 74px;
+    
+
+}
+
+header{
+    background-color: rgb(47, 48, 126);
+    border: 25px solid red;
+    padding:15px
+
+}
+main p{
+    color:rgb(25, 27, 27)
+}
+main li{
+    list-style-type: none;
+}
+main li a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 50px; 
+    border: solid blue;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(107, 194, 179);
+    color:rgb(6, 6, 90)
+
+}
+
+a{
+    text-decoration: none;
+    color:rgb(4, 62, 95);
+    font-size:larger;
+
+
+}
+/*mda a cor do link quand passa o mouse 
+
+a:hover {
+    color :black
+}
+
+ou usar assim */
+a{ 
+&:hover{
+
+    color:rgb(122, 8, 8);
+
+    text-decoration:double
+
+}
+}

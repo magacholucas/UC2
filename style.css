@@ -1,8 +1,21 @@
-h2 {
+/*2 {
     color:rgb(7, 20, 199);
     font-family:Arial, Helvetica, sans-serif;
     border-left: 4px solid blue;
     padding-left: 10px
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BR+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BR+Guides&family=Sekuya&display=swap');
+#logotipo{
+    /* faz referencia ao id da imagem no index foi colocada a identificação da imagemcomo id - vou definir o tamanho da imagem */
+    max-width: 400px;
+   /* define variaveis  para buscar a variavel  ex: blackground-color: var(--branco);*/
+:root {
+    --preto:#222;
+    --vermelho:#a22;
+}  
+
 }
 h1 {
     color:rgb(238, 155, 30);
@@ -11,33 +24,36 @@ h1 {
     border: 10px solid brown;
 }
 h3 {
-    color:black;
+    color:rgb(238, 235, 235);
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 80px;
+    font-size: 15px;
 }
 p {
-    color:rgb(8, 88, 64);
+    color:rgb(229, 231, 230);
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 80px;   
+    font-size: 15px;   
 }
 
 img {
-border-radius: 200px;
-border:20px solid rgb(151, 32, 32);
+    /*
+    margin-left:400px;
+    border-radius: 200px;
+    border:5px solid rgb(151, 32, 32);
+    */
 
 }
 section{
     border:2px solid black;
     margin: 50px;
     padding: 60px;
-    padding-bottom: 300px;
+    padding-bottom: 20px;
     margin-top: 100px;
     /* realiza comentario em css 
     
     */
 }
 nav{
-    background-color: chartreuse;
+    background-color: rgb(168, 139, 59);
     padding: 10px;
 }
 
@@ -51,17 +67,33 @@ nav ul{
 }
 nav li{
     display: inline-block;
-    margin-right: 15px;
-    font-size: 74px;
+    margin-right: 40px;
+    font-size: 16px;
     
 
 }
+body{
 
+    background-color: black;
+
+}
 header{
-    background-color: rgb(47, 48, 126);
-    border: 25px solid red;
-    padding:15px
+    background-color:black;
+    /* border: 5px solid red;*/
+    padding:10px;
+    text-align: center;
+    font-family: "Playwrite+BR+Guides";
 
+}
+header p {
+    
+}
+
+
+header h2{
+    font-family: "Sekuya";
+    text-align: center;
+    font-size: xx-large;
 }
 main p{
     color:rgb(25, 27, 27)
@@ -72,21 +104,25 @@ main li{
 main li a {
     display: inline-block;
     margin-right: 15px;
-    font-size: 50px; 
-    border: solid blue;
+    font-size: 15px; 
+    border: solid rgb(237, 237, 240);
     margin: 50px;
     padding: 10px;
     background-color: rgb(107, 194, 179);
-    color:rgb(6, 6, 90)
+    color:rgb(230, 230, 236)
 
 }
 
 a{
     text-decoration: none;
-    color:rgb(4, 62, 95);
+    color:rgb(174, 180, 184);
     font-size:larger;
 
 
+}
+video {
+    max-width: 100;
+    border-radius: 6px;
 }
 /*mda a cor do link quand passa o mouse 
 
@@ -95,10 +131,14 @@ a:hover {
 }
 
 ou usar assim */
+footer h3{
+    text-align: center;
+    background-color: black;
+}
 a{ 
 &:hover{
 
-    color:rgb(122, 8, 8);
+    color:rgb(13, 4, 78);
 
     text-decoration:double
 
