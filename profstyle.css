@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+15&display=swap');
+
+/* :root {
+  --preto: #222;
+  --vermelho: #a22;
+  --branco: #f4f4f4;
+  --cinza: #d9d9d9;
+}
+ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  margin: 0;
+}
+
+#logotipo {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #202020;
+  color: #f4f4f4;
+  padding: 20px;
+  border-bottom: 4px solid #a22;
+  text-align: center;
+}
+
+header p {
+  font-family: "Jacquard 24";
+  font-size: xx-large;
+}
+
+header h1 {
+  margin: 0 0 5px 0;
+}
+
+nav {
+  background-color: #d9d9d9;
+  padding: 10px 20px;
+  font-family: "Jacquard 24";
+  font-size: xx-large;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2b3a55;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #2b3a55;
+  color: #ffffff;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section h2 {
+  border-left: 5px solid #2b3a55;
+  padding-left: 10px;
+}
+
+article {
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+video, iframe {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* CSS Aula 04 */
+.tabela-edicoes {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.tabela-edicoes caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tabela-edicoes th,
+.tabela-edicoes td {
+  border: 1px solid #cccccc;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.tabela-edicoes thead th {
+  background-color: #202020;
+  color: #f4f4f4;
+}
+
+.tabela-edicoes th[scope="row"] {
+  text-align: left;
+  background-color: #f0f0f0;
+}
+
+.destaque {
+  background-color: #f7dede;
+  font-weight: bold;
+}
+
+.disponivel {
+  color: #227722;
+}
+
+.indisponivel {
+  color: #999999;
+}
+
+footer {
+  background-color: #a22;
+  color: #f4f4f4;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+/* footer a {
+  color: #ffd9c7;
+} */

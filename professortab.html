@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dungeon Delvers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img id="logotipo" src="media/img/logotipo.jpg" alt="Logotipo Dungeon Delvers">
+    <p>Enfrente a Dungeon. Salve o Reino.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="edicoes.html">Edições</a></li>
+      <li><a href="reserva.html">Lista de espera</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Edições</h2>
+      <!-- Bora fazer tabela, cambada!! -->
+      <table class="tabela-edicoes">
+        <caption>Compare as edições de Dungeon Delvers</caption>
+        <thead>
+          <tr><!-- scope = acessibilidade -->
+            <th scope="col">Recurso</th>
+            <th scope="col">Padrão</th>
+            <th scope="col">Deluxe</th>
+            <th scope="col" class="destaque">Colecionador</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Jogo base</th>
+            <td class="disponivel">✅</td>
+            <td class="disponivel">✅</td>
+            <td class="disponivel">✅</td>
+          </tr>
+
+          <!-- ROWSPAN: uma célula da primeira coluna "abraça" duas linhas -->
+          <tr>
+            <th scope="row" rowspan="2">Conteúdo digital</th>
+            <td class="indisponivel">—</td>
+            <td class="disponivel">Trilha sonora</td>
+            <td class="disponivel">Trilha sonora</td>
+          </tr>
+          <tr>
+            <td class="indisponivel">—</td>
+            <td class="disponivel">Artbook digital</td>
+            <td class="disponivel">Artbook digital</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Acesso antecipado (48h)</th>
+            <td class="indisponivel">—</td>
+            <td class="indisponivel">—</td>
+            <td class="disponivel">✅</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Skin exclusiva "Guardião das Sombras"</th>
+            <td class="indisponivel">—</td>
+            <td class="indisponivel">—</td>
+            <td class="disponivel">✅</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Preço</th>
+            <td>R$ 79,90</td>
+            <td>R$ 109,90</td>
+            <td class="destaque">R$ 149,90</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <!-- COLSPAN: uma célula ocupando as 3 colunas de edição -->
+          <tr>
+            <td></td>
+            <td colspan="3">* Cada edição inclui tudo o que vem na edição anterior.</td>
+          </tr>
+        </tfoot>
+      </table>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Dungeon Delvers — Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
