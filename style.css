@@ -179,5 +179,36 @@ footer h3{
   .indisponivel {
     color: #e4dede;
   }
+input[type="text"]{
+    width: 600px;
+
+}  
+
+ .campo {
+    color: rgb(221, 16, 50);
+    font-size: x-large;
+
   
+
+ }
+
+ button {
  
+    background-color: rgb(29, 14, 231)
+    ;
+    color: #cccccc;
+    font-size: large;
+    font-style: oblique;
+ }
+
+button[type="reset"]{
+    background-color: rgb(235, 15, 15)
+    ;
+    color: #cccccc;
+    font-size: large;
+    font-style: oblique;
+}
+    
+
+
+

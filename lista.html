@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mound</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- header = cabecalho-->
+        <header>
+            <img id="logotipo" src="https://media.nacongaming.com/media/catalog/product/t/h/the_mound_landscape_01.webp?width=1000&store=nacon_en&image-type=landscape_image" alt="logotipo">
+            
+            
+            <h2 style="color:rgb(222, 222, 226)">Venha ser o explorador de um novo mundo</h2>
+            
+
+    
+        </header>
+        <nav>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="planos.html">Planos</a></li>
+            <li><a href="contato.html">Ediçoes</a></li>
+            <li><a href="lista.html">Lista de Espera</a></li>
+
+
+        </nav>
+        <main>
+            
+            <section id="lista-de-espera">
+                <n2>Entra na Lista de espera</n2>
+                <p>Seja avisado, assim que o jogo esteja disponivel</p>
+
+                <form action="#" method="post"
+                     class="form-lista-espera">
+                    <!-- div compartilhamento coringa posso colocar o que eu quiser dentro e usado com classe ou id para formatar no css-->
+                    <div class="campo">
+                
+                        <!-- input e para inserir os dados
+                        tipo e o tipo da entrada de dados
+                        id= serve apenas para referencia
+                        name variavel que ficara armazenado os dados
+                        placeholder - e a msg que aparece no campo explicativo ele some quando digitamos
+                        required - se tem informação ou não indica que o campo e obrigatorio
+                        Label e para colocar o nome no campo 
+                        -->
+                        <p></p>
+                        <label for="nome">Nome</label>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Como podemos te chamar?"
+                            required
+                    
+                        >
+
+
+                    </div>
+                    <p></p>
+                    <div class="campo">
+                        <!-- colocando o tipo como email ele critica o formato do e-mail
+                        -->
+
+                        <label for="email">e-mail</label>
+                        <input
+        
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="seuemail@exemplo.com"
+                            required
+                    
+                        >
+
+
+                    </div>
+                    <p></p>
+                    <div class="campo">
+                                    <!-- colocando o tipo como tel ele não tem validação psrs isso definiremos o padrão pelo pattern se eu escrever o padro sera 
+                                        dessa forma ex= pattern=(21) 90000-0000 sera exatamente igual para isso colocamos o formato existe gerador de redex na internet
+                                        para gerar as mascaras \(? siginifica que não e obrigatorio)  s= espaço
+                                         -->
+
+                        <label for="telefone">Telefone</label>
+                        <input
+                            type="tel"
+                            id="telefone"
+                            name="telefone"
+                            placeholder="(21) 90000-0000"
+                            pattern="\(?\d{2}\)?\s?\d{5,4}\-?\d{4}"
+                            required
+                    
+                        >
+
+
+                    </div>
+                    <p></p>
+                    <div class="campo">
+                        <!-- campo numerico podemos limita-lo entre minimo e maximo o type que define
+                            -->
+
+                        <label for="idade">Idade</label>
+                         <input
+                            type="number"
+                            id="idade"
+                            name="idade"
+                            min="16"
+                            max="120"
+                             placeholder="Sua idade"
+                            required
+                        >
+                    </div>
+
+                    <!-- o cria o botao para enviar, se escolher  o type reset ele limpa todos os campos-->
+                    <p></p>
+                    <p></p>
+                    
+                    <button type="submit"> Entrar na lista de espera </button>
+                    
+                    <button type="reset">Limpar o formulario</button>
+                    
+
+
+            
+                </form>
+
+
+            </section>
+
+        </main>
+        <footer>
+            <h3>rodape da pagina</h3>
+        </footer>
+
+        
+</body>
+</html>
